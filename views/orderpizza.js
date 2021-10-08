@@ -9,7 +9,7 @@ module.exports = function Pizzas(){
     ];
     
     
-    function orderPizza(pizzAsize) {
+    function orderpizza(pizzAsize) {
         let pizza = {
             size: '',
             price: 0,
@@ -55,4 +55,5 @@ module.exports = function Pizzas(){
                 pizza.totalPrice = pizza.quantity * mediumPizzaCost;
                 cart.push(pizza)
             }
-        }
+     
+    }}}
